@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
-  return (
+// import JSX from "./1_JSX/JSX.js"
+// import Props from "./2_Props/Props"
+// import Events from './3_Events/Events';
+import Conditionals from './4_Conditionals/Conditionals';
+function App(){
+   const a=5;
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <JSX/> */}
+       {/* <Props/> */}
+       {/* <Events/> */}
+       <Conditionals/>
+
     </div>
   );
 }
+  
 
 export default App;
