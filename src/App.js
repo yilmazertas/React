@@ -1,6 +1,4 @@
 import MyFormik from './8_Forms/FormikYup/MyFormik';
-
-import './App.css';
 // import JSX from "./1_JSX/JSX.js"
 // import Props from "./2_Props/Props"
 // import Events from './3_Events/Events';
@@ -9,7 +7,10 @@ import './App.css';
 // import UseStateHook from './6_UseStateHook/UseStateHook';
 // import UseEffectHook from './7_UseEffectHook/UseEffectHook';
 // import Forms from './8_Forms/Forms';
-import Router from './9_Router/Router';
+// import Router from './9_Router/Router';
+import UseContext from './10_UseContextHook/UseContext';
+import './App.css';
+
 function App(){
    const a=5;
   return(
@@ -22,7 +23,8 @@ function App(){
        {/* <UseStateHook/> */}
        {/* <UseEffectHook/> */}
        {/* <Forms/> */}
-       <Router/>
+       {/* <Router/> */}
+       <UseContext/>
       
     </div>
   );
